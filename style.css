@@ -6,6 +6,11 @@
 body{
     background-image: url(https://blog.bisok.com/hubfs/human%20vs%20ai.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: center center;
+
 }
 .main {
     background-color: rgba(30,144,255, 0.7);
@@ -78,6 +83,7 @@ button:active{
     font-size: 40px;
     font-weight: bold;
     margin-top: 50px;
+    margin-left: 22px;
     
 }
 .result-ai{
@@ -85,4 +91,24 @@ button:active{
 }
 
 
+@media screen and (max-width: 951px){
 
+    .main{
+        margin-top: 90px;
+        width: 355px;
+        height: 495px;
+    }
+
+    body{
+        background-position: center;
+        background-size: cover;
+        
+        
+        
+        
+    
+        
+        
+}
+}
+ 
